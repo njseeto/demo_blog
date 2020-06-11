@@ -1,24 +1,30 @@
-# README
+# Demo blog app
+A little blog app that allows you to create and comment on posts.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project was a way for me to get my head around both Rails and the MVC design.
 
-Things you may want to cover:
+This project runs on Ruby 2.7.1 and Rails 6.
 
-* Ruby version
 
-* System dependencies
+### Notable Gems used
 
-* Configuration
+- [bulma-rails](https://rubygems.org/gems/bulma-rails)
+A CSS framework based on flex-box
 
-* Database creation
+- [guard](https://rubygems.org/gems/guard)
+Automates tasks wenever file or directories are changed. Used to run `guard-livereload`
 
-* Database initialization
+- [guard-livereload](https://rubygems.org/gems/guard-livereload)
+Automatically reloads the browser when 'view' files are modified
 
-* How to run the test suite
+- [better-errors](https://rubygems.org/gems/better_errors)
+Provides better feedback when it comes to errors
 
-* Services (job queues, cache servers, search engines, etc.)
+- [simple_form](https://rubygems.org/gems/simple_form)
+A way to get forms up an running easily!
 
-* Deployment instructions
 
-* ...
+### How to get this running
+- `bundle install`
+- `rails s`
+- Go to `localhost:3000`
